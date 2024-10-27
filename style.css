@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 12px;
+    font-size: 1rem;
+    color: #444;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+select:hover {
+    border-color: #888;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff7e67;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+#notification {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    transition: opacity 0.5s ease;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.happy {
+    color: #ffbb33;
+    background-color: #fff5e1;
+}
+
+.sad {
+    color: #4a90e2;
+    background-color: #e1f0ff;
+}
+
+.stressed {
+    color: #ff4d4d;
+    background-color: #ffe1e1;
+}
+
+.excited {
+    color: #66cc99;
+    background-color: #e1ffe5;
+}

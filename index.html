@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood-based Notification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>How are you feeling today?</h1>
+        <select id="moodSelect" onchange="displayNotification()">
+            <option value="">Select your mood</option>
+            <option value="happy">😊 Happy</option>
+            <option value="sad">😢 Sad</option>
+            <option value="stressed">😫 Stressed</option>
+            <option value="relaxed">🤩 Relaxed</option>
+        </select>
+        <div id="notification" class="hidden"></div>
+        <button onclick="resetNotification()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
