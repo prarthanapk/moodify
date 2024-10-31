@@ -8,16 +8,13 @@ Features Mood Selection: Choose from a list of moods (Happy, Sad, Stressed, Rela
 Installation
 To get started with the WeirdMoodTracker app, follow these steps:
 
-Clone the repository:
-git clone https://github.com/your-username/WeirdMoodTracker.git cd WeirdMoodTracker
-
 Install dependencies:
 npm install
 
 Run the app:
 npm start
 
-Open http://localhost:3000 to view the app in your browser.
+Open https://prarthanapk.github.io/moodify/ to view the app in your browser.
 
 Usage
 1.Select a Mood: Use the dropdown to select your current mood.
